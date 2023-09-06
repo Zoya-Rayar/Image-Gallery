@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+          <img src="img/13.jpg" alt="Space" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="img/111.jpg" alt="Space" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="img/three.jpg" alt="Space" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="img/one.jpg" alt="Space" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="img/two.jpg" alt="Space" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/four1.jpg" alt="Space" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/ten.jpg" alt="Space" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/eight.jpg" alt="Space" onclick="myFunction(this);">
+          </div>
+          <div class="column">
+            <img src="img/14.jpg" alt="Space" onclick="myFunction(this);">
+          </div>
+          <div class="column"> 
+            <img src="img/five.jpg" alt="Space" onclick="myFunction(this);">
+          </div> 
+      </div>
+      <div class="container">
+        <!-- Close the image -->
+        <span  onclick="closeImage()" class="closebtn">&times;</span>
+
+        <!-- Expanded image -->
+        <img id="expandedImg" style="height:100vh; width: 100vw; margin: 0; padding: 0; overflow: hidden;">
+
+        <!-- Image text -->
+        <div id="imgtext"></div>
+
+        <div class="buttons">
+          <!-- &#10132; -->
+            <button class="prev" onclick="goPrev()">  &larr;</button>
+            <button class="next" onclick="goNext()">&rarr;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+      
+ 
+   
+  
+</body>
+</html>
